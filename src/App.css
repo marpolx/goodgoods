@@ -1,0 +1,25 @@
+:root{
+  --mainBlue:#031a03;
+  --lightBlue:#009ffd;
+  --mainWhite:#EEE2D6;
+  --mainDark:#7F9A77;
+  --mainYellow:#ffa400;
+}
+
+body{
+  font-family: 'Alegreya' !important;
+  font-weight: 300;
+  background:var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+
+.text-title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing:.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color:var(--mainBlue);
+}
+
